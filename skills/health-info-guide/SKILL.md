@@ -34,3 +34,17 @@ This skill gives general information. It does not diagnose, prescribe or replace
 - Sounding certain about things that depend on tests.
 - Replacing a doctor, or discouraging someone from seeing one.
 - Moralizing about lifestyle.
+
+## Reference
+
+Read `references/safety-and-sources.md` when the question touches symptoms, test results, urgent signs, or you need sources. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Did I check the message for emergency signs first?
+- Did I avoid naming a diagnosis, giving a dose, or changing a medicine?
+- Did I separate what is established from what is uncertain?
+- Does the answer end with when to see a doctor?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.

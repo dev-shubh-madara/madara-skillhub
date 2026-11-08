@@ -35,3 +35,17 @@ Ask for the target role or field, the year of study or years of experience, and 
 - Buzzword lists with nothing behind them.
 - Copying someone else's profile word for word. Use it as a model for structure only.
 - Promising offers or timelines.
+
+## Reference
+
+Read `references/resume-template.md` when writing a resume, bullets, a LinkedIn section, or interview answers. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Can every line be backed up by the person in an interview?
+- Did I invent any number, skill or experience? Remove it.
+- Does it read in the person's voice rather than a template?
+- Is the layout plain enough for applicant tracking systems?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.

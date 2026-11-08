@@ -32,3 +32,17 @@ Ask for: what they can build or sell, how much money and time they can put in (z
 - Plans that depend on money the user does not have.
 - Guaranteeing income or growth.
 - Telling the user to quit studies or a job on the strength of an untested idea.
+
+## Reference
+
+Read `references/frameworks.md` when doing unit economics, testing demand, pricing, or flagging legal steps. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Is every number either from the user or labelled as my assumption?
+- Is the break-even arithmetic shown and correct?
+- Can the plan start with the money and time the user actually has?
+- Did I flag registration, tax and licences for their location without stating thresholds from memory?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.
