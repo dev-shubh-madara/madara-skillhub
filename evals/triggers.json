@@ -1,0 +1,124 @@
+{
+  "note": "Prompts that should and should not trigger each skill. Run them by hand in a fresh chat with only that skill installed, and record the result in evals/RESULTS.md.",
+  "skillhub": {
+    "should": [
+      "install all skills from this repo",
+      "add the frontend and study packs from madara-skillhub",
+      "which skill packs are available here?"
+    ],
+    "should_not": [
+      "write me a landing page",
+      "explain loops in python"
+    ]
+  },
+  "frontend-builder": {
+    "should": [
+      "make a dark landing page for my music bot with scroll animations",
+      "my navbar breaks on mobile, fix it",
+      "build a dashboard UI for orders"
+    ],
+    "should_not": [
+      "design the database for an orders API",
+      "teach me css from zero"
+    ]
+  },
+  "backend-api-builder": {
+    "should": [
+      "build a FastAPI service with API keys and daily limits",
+      "how do I deploy my webhook server on Railway?",
+      "add rate limiting to my express routes"
+    ],
+    "should_not": [
+      "style this button",
+      "write my resume"
+    ]
+  },
+  "coding-teacher": {
+    "should": [
+      "teach me python lists with practice questions",
+      "I have a programming exam on Friday, help me revise loops",
+      "explain recursion and test me"
+    ],
+    "should_not": [
+      "build a full website for me",
+      "deploy my api"
+    ]
+  },
+  "study-coach": {
+    "should": [
+      "make a 10 day plan for my physics test",
+      "how should I revise semiconductors for 30 marks?",
+      "give me a mock test on quantum mechanics"
+    ],
+    "should_not": [
+      "write a business plan",
+      "fix this python error"
+    ]
+  },
+  "business-planner": {
+    "should": [
+      "I have no money, how can I start a small startup?",
+      "how should I price my service?",
+      "write a 30 day launch plan for my app"
+    ],
+    "should_not": [
+      "what is a good workout for beginners",
+      "debug my css"
+    ]
+  },
+  "health-info-guide": {
+    "should": [
+      "how much sleep does a college student need?",
+      "explain what a high cholesterol result means in simple words",
+      "what questions should I ask my doctor about back pain?"
+    ],
+    "should_not": [
+      "plan my exam schedule",
+      "build a fitness tracker app"
+    ]
+  },
+  "research-writer": {
+    "should": [
+      "write a report on solar charging technology with sources",
+      "compare three vector databases with references",
+      "summarize these two papers for my assignment"
+    ],
+    "should_not": [
+      "make my resume",
+      "teach me javascript"
+    ]
+  },
+  "career-builder": {
+    "should": [
+      "update my resume for a summer internship",
+      "rewrite my linkedin about section",
+      "give me interview questions for a backend intern role"
+    ],
+    "should_not": [
+      "analyze this csv",
+      "price my product"
+    ]
+  },
+  "data-analyst": {
+    "should": [
+      "here is my sales csv, what are the trends?",
+      "clean this excel file and make a chart",
+      "which month had the highest growth in this data?"
+    ],
+    "should_not": [
+      "write a story",
+      "improve my readme"
+    ]
+  },
+  "repo-polish": {
+    "should": [
+      "make my github readme better",
+      "my repo has no stars, how do I make it look professional?",
+      "check my repo structure before I make it public"
+    ],
+    "should_not": [
+      "write the backend for it",
+      "teach me git from zero"
+    ]
+  }
+}

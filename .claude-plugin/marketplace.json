@@ -1,0 +1,14 @@
+{
+  "name": "madara-skillhub",
+  "owner": {
+    "name": "Shubh",
+    "url": "https://github.com/dev-shubh-madara"
+  },
+  "plugins": [
+    {
+      "name": "madara-skillhub",
+      "source": "./",
+      "description": "Tested Claude skills for building, learning, business and career work, plus a one-message installer."
+    }
+  ]
+}

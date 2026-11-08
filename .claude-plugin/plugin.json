@@ -1,0 +1,13 @@
+{
+  "name": "madara-skillhub",
+  "version": "0.1.0",
+  "description": "A hub of tested Claude skills for frontend, backend, coding teaching, study, business, health info, research writing, career and data work, with a one-message installer.",
+  "author": {
+    "name": "Shubh",
+    "url": "https://github.com/dev-shubh-madara"
+  },
+  "homepage": "https://github.com/dev-shubh-madara/madara-skillhub",
+  "repository": "https://github.com/dev-shubh-madara/madara-skillhub",
+  "license": "MIT",
+  "keywords": ["skills", "installer", "frontend", "backend", "study", "business", "career"]
+}
