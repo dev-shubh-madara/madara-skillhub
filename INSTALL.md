@@ -8,7 +8,7 @@ A user has pointed you at this repo and asked you to install its skills. Do this
 4. Before installing, check every skill with `scripts/audit_skill.py` if you have a shell, or by reading it yourself if you do not. Skip and report any skill that fails.
 5. Install:
    - With a shell (Claude Code): run `python3 scripts/install.py --all` (or `--only name1,name2`). It copies the skills into `~/.claude/skills/`.
-   - In a normal Claude chat: call `propose_skills` with each skill's name, description and full `SKILL.md` text, three per call. The user taps save on each card.
+   - In a normal Claude chat: call `propose_skills` with each skill's name, description and full `SKILL.md` text, three per call. Add the skill's `references/` file at the end under `## Reference`, since a chat skill keeps one file. The user taps save on each card. Details are in `skills/skillhub/references/install-details.md`.
 6. Tell the user what was installed, what was skipped and why, and one example prompt for each installed skill.
 
 Do not install anything that is not inside `skills/`. Do not edit the skills while installing unless the user asks for a personal fit (see the fit step in `skillhub`).

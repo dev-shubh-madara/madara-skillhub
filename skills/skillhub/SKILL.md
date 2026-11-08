@@ -51,3 +51,16 @@ In Claude Code, put it in the project `CLAUDE.md`. In chat, give it to the user 
 - Never claim a pack is installed until the install step actually succeeded.
 - Never hide a failed audit. Say which pack failed and what was found.
 - Do not promise a fixed speedup. Say what the pack changes about how Claude works, and let the user judge the results.
+
+## Reference
+
+Read `references/install-details.md` when fetching files without a shell, installing in chat, or verifying after install. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Did each install step actually succeed before I reported it as installed?
+- Did every skill pass the audit, and did I report any that did not?
+- Did I give one test prompt per installed skill?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.
