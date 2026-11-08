@@ -37,3 +37,18 @@ Contract, then folder structure, then code file by file, then run and deploy ste
 - Storing anything sensitive in plain text.
 - Hidden global state that breaks when the host restarts or scales.
 - Claiming a deploy works without a way to check it.
+
+## Reference
+
+Read `references/api-patterns.md` when writing the contract, choosing status codes, adding auth or rate limits, or deploying. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Does every endpoint in the contract exist in the code, with the same paths and fields?
+- Is every input validated and every error in the same shape?
+- Is any secret hard-coded, logged, or missing from `.env.example`?
+- Does the app bind to `0.0.0.0` and read `PORT` if it will be deployed?
+- Did the tests run? If a test failed, did I fix the code rather than the test?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.

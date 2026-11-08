@@ -32,3 +32,18 @@ Ask what decision the data should help with. Look at the file before assuming an
 - Charts with truncated axes that exaggerate a small change.
 - Claiming causes the data cannot show.
 - Overwriting the user's original file.
+
+## Reference
+
+Read `references/analysis-recipes.md` when inspecting, cleaning, choosing a chart, or writing the summary. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Did every number in my summary come from code that ran on this file?
+- Do totals after cleaning match the raw data, or is the gap explained?
+- Did I state each assumption (date format, how missing values were handled)?
+- Does any chart exaggerate with a truncated axis?
+- Am I claiming a cause the data cannot show?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.

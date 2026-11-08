@@ -39,3 +39,18 @@ Ask only what you cannot guess: who the page is for, what action it should drive
 - Libraries added for one small effect.
 - Giant inline blocks of repeated code. Use variables and small helpers.
 - Fake testimonials, fake logos, or invented statistics.
+
+## Reference
+
+Read `references/checklist.md` when starting a build, picking tokens, or fixing a layout bug. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Did I test at 360px and at desktop width, at least by reading the CSS for fixed widths and `100vw`?
+- Does every interactive element have hover and focus styles?
+- Is there exactly one signature effect, and does it respect reduced motion?
+- Did I invent any testimonials, logos or numbers? If so, replace them with clear placeholders.
+- Can the user run it with the steps I gave, without guessing a missing file?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.

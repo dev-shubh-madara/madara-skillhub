@@ -32,3 +32,17 @@ Read the repo first: the files, the entry point, how it runs. Do not write a REA
 - Marketing language: "powerful", "seamless", "cutting-edge". Say what it does.
 - Copying another project's README structure line for line.
 - Adding notes or credits that the owner did not ask for.
+
+## Reference
+
+Read `references/readme-template.md` when writing the README or running the pre-publish checks. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Did I read the code before describing it, and does every README claim match the code?
+- Do the install steps work from a fresh clone?
+- Is there any placeholder text, broken link, or marketing filler left?
+- Did I check for committed secrets and tell the owner to rotate any I found?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.
