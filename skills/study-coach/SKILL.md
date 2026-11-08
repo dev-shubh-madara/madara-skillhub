@@ -31,3 +31,17 @@ Get these, and ask for only what is missing: the subject and units, the exam dat
 - Giving answers before the user tries.
 - Promising a score. A target is a goal, not a guarantee.
 - Making up past paper questions and calling them real.
+
+## Reference
+
+Read `references/plan-templates.md` when writing the plan, scheduling revision, making a unit test, or handling numericals. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Does the plan fit the hours the learner said, with a buffer day?
+- Are the questions in the format of their real exam?
+- For numericals, are units and steps shown and is the final answer checked?
+- Did I avoid promising a score?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.

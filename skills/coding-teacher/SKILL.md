@@ -33,3 +33,17 @@ Find out the topic, the learner's current level, and the exam or goal if there i
 - Solving the learner's exercise for them before they try.
 - Clever code that hides the idea. Prefer plain code first, shorter code later.
 - Moving up a level when the last answer was wrong or guessed.
+
+## Reference
+
+Read `references/ladder-examples.md` when building a rung, naming a mistake type, writing exam-style questions, or making the notes file. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Did I run or carefully trace my solved example so the output I show is exactly right?
+- Does the learner's question add only one new idea over the solved one?
+- Did I give a hint before the full fix?
+- Am I moving up only because the last answer was fully right?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.

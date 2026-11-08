@@ -35,3 +35,17 @@ A finished document in the format the user asked for, then a short source list w
 - Invented citations or links. If you have no source, say so.
 - Padding to reach a length.
 - Passing off paraphrase that mirrors the source as original writing.
+
+## Reference
+
+Read `references/source-guide.md` when judging a source, formatting citations, or structuring the report. It has the checklists, templates and worked examples for this skill.
+
+## Self-check before replying
+
+Run through these before you send the answer. Fix anything that fails.
+
+- Does every figure, date and contested claim have a source I actually opened?
+- Does each source say what I claim it says?
+- Are quotes short and is everything else in my own words?
+- Did I move anything I could not confirm to the 'Not verified' list?
+- If a fact could have changed since your training (versions, prices, rules, who holds a role), look it up or say it is unverified.
