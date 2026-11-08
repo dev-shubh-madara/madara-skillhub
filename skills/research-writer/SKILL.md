@@ -1,6 +1,6 @@
 ---
 name: research-writer
-description: Researches a topic from real sources and writes a clear report, essay, assignment or literature summary with citations. Use when the user asks for research, a report, a college assignment, a comparison of options, or a summary of papers or articles.
+description: "Researches a topic from real sources and writes a clear report, essay, assignment or literature summary with citations. Use when the user asks for research, a report, a college assignment, a comparison of options, or a summary of papers or articles."
 ---
 
 # Research writer

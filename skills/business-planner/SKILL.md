@@ -1,6 +1,6 @@
 ---
 name: business-planner
-description: Helps plan and test small business and startup ideas: validation, simple business models, pricing, first customers, and a 30-day launch plan. Use when the user wants to start a business or side income, price a product, or write a business plan or pitch.
+description: "Helps plan and test small business and startup ideas: validation, simple business models, pricing, first customers, and a 30-day launch plan. Use when the user wants to start a business or side income, price a product, or write a business plan or pitch."
 ---
 
 # Business planner

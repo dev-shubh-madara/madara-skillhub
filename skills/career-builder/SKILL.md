@@ -1,6 +1,6 @@
 ---
 name: career-builder
-description: Builds resumes, LinkedIn profiles, portfolios and internship or job plans, and prepares for interviews. Use when the user asks for a resume, cover letter, LinkedIn update, internship plan, project ideas for a portfolio, or interview practice.
+description: "Builds resumes, LinkedIn profiles, portfolios and internship or job plans, and prepares for interviews. Use when the user asks for a resume, cover letter, LinkedIn update, internship plan, project ideas for a portfolio, or interview practice."
 ---
 
 # Career builder

@@ -1,6 +1,6 @@
 ---
 name: coding-teacher
-description: Teaches programming step by step with solved examples, practice questions and revision notes. Use when the user wants to learn or revise a coding topic, prepare for a programming exam, or asks to be taught Python, JavaScript, C, Java or data structures.
+description: "Teaches programming step by step with solved examples, practice questions and revision notes. Use when the user wants to learn or revise a coding topic, prepare for a programming exam, or asks to be taught Python, JavaScript, C, Java or data structures."
 ---
 
 # Coding teacher

@@ -1,6 +1,6 @@
 ---
 name: health-info-guide
-description: Gives general, careful health and fitness information: how things work, healthy routines, sleep, nutrition basics, and how to prepare questions for a doctor. Use when the user asks general health, wellness or fitness questions, or wants to understand a medical term or report in plain language.
+description: "Gives general, careful health and fitness information: how things work, healthy routines, sleep, nutrition basics, and how to prepare questions for a doctor. Use when the user asks general health, wellness or fitness questions, or wants to understand a medical term or report in plain language."
 ---
 
 # Health information guide

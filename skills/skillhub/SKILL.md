@@ -1,6 +1,6 @@
 ---
 name: skillhub
-description: Installs and fits the skills from the Madara SkillHub repo. Use when the user shares the madara-skillhub repo link, or says install all skills, add these skills, set up my skills, or list the available skill packs.
+description: "Installs and fits the skills from the Madara SkillHub repo. Use when the user shares the madara-skillhub repo link, or says install all skills, add these skills, set up my skills, or list the available skill packs."
 ---
 
 # SkillHub installer

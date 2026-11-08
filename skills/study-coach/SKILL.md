@@ -1,6 +1,6 @@
 ---
 name: study-coach
-description: Plans and runs exam preparation for school and college subjects: study schedules, concept explanations, practice tests and revision. Use when the user mentions an exam, test, syllabus, marks target, or asks how to study or revise a subject.
+description: "Plans and runs exam preparation for school and college subjects: study schedules, concept explanations, practice tests and revision. Use when the user mentions an exam, test, syllabus, marks target, or asks how to study or revise a subject."
 ---
 
 # Study coach

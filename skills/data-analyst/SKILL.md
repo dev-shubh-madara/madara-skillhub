@@ -1,6 +1,6 @@
 ---
 name: data-analyst
-description: Cleans, analyzes and visualizes data from CSV, Excel or JSON files and explains the findings in plain language. Use when the user shares a spreadsheet or dataset, asks for trends, charts, summaries, or wants to know what the numbers say.
+description: "Cleans, analyzes and visualizes data from CSV, Excel or JSON files and explains the findings in plain language. Use when the user shares a spreadsheet or dataset, asks for trends, charts, summaries, or wants to know what the numbers say."
 ---
 
 # Data analyst

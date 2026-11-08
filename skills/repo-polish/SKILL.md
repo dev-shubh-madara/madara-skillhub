@@ -1,6 +1,6 @@
 ---
 name: repo-polish
-description: Cleans up a GitHub repository so it looks professional and is easy to use: README, structure, setup steps, license, screenshots and issue hygiene. Use when the user wants a better README, a repo that attracts stars, or help getting a project ready to share.
+description: "Cleans up a GitHub repository so it looks professional and is easy to use: README, structure, setup steps, license, screenshots and issue hygiene. Use when the user wants a better README, a repo that attracts stars, or help getting a project ready to share."
 ---
 
 # Repo polish

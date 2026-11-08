@@ -1,6 +1,6 @@
 ---
 name: frontend-builder
-description: Builds and fixes frontend work: landing pages, dashboards, animated or 3D scroll sites, responsive layouts, and UI cleanups. Use when the user asks for a website, page, UI, component, animation, or says the design looks plain or broken.
+description: "Builds and fixes frontend work: landing pages, dashboards, animated or 3D scroll sites, responsive layouts, and UI cleanups. Use when the user asks for a website, page, UI, component, animation, or says the design looks plain or broken."
 ---
 
 # Frontend builder

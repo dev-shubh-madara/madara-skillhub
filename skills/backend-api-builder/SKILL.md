@@ -1,6 +1,6 @@
 ---
 name: backend-api-builder
-description: Designs and builds backend APIs and services in Python or Node: routes, auth, databases, background jobs, rate limits and deployment. Use when the user asks for an API, server, bot backend, database layer, webhook handler, or help deploying a backend.
+description: "Designs and builds backend APIs and services in Python or Node: routes, auth, databases, background jobs, rate limits and deployment. Use when the user asks for an API, server, bot backend, database layer, webhook handler, or help deploying a backend."
 ---
 
 # Backend API builder
