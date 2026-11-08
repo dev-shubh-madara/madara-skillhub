@@ -1,0 +1,25 @@
+name: check skills
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Validate skill format
+        run: python3 scripts/validate_skills.py
+      - name: Safety audit
+        run: python3 scripts/audit_skill.py skills/*
+      - name: Installer dry run
+        run: python3 scripts/install.py --all --dry-run --dest "$RUNNER_TEMP/skills"
+      - name: JSON files parse
+        run: |
+          python3 -c "import json; [json.load(open(f)) for f in ['evals/triggers.json', '.claude-plugin/plugin.json', '.claude-plugin/marketplace.json']]"
