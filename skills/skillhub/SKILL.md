@@ -24,7 +24,8 @@ This skill installs the other skills in this repo into the user's Claude and fit
 5. **Fit (only if the user did not say "just install").** Ask at most three short questions: their level, their main goal, and their stack or field. Save the answers as a short profile (template below). Packs read it to set depth and examples.
 6. **Install.**
    - Shell available: `python3 scripts/install.py --all` or `--only a,b`. Use `--dry-run` first if the user is unsure.
-   - Chat only: call `propose_skills` with each pack's name, description and complete `SKILL.md`. Three proposals per call.
+   - Chat with a skill-saving tool (such as `propose_skills`): send each pack's name, description and complete `SKILL.md`. Three per call.
+   - Chat without one: say plainly that you can't save skills here. Give the ZIP download links from the repo's `dist/` folder and the upload steps: **Customize > Skills**, **+**, **Create skill**, **Upload a skill**. Code execution must be on in **Settings > Capabilities**.
 7. **Verify.** For each installed pack, give the user one example prompt that should trigger it. Check `evals/triggers.json` for the prompts that should and should not trigger it.
 8. **Report.** Installed, skipped (with reason), and the profile if one was made. Keep it short.
 
