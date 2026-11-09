@@ -30,11 +30,11 @@ def load_validator():
 
 def build_zip(folder):
     buffer = io.BytesIO()
-    with zipfile.ZipFile(buffer, "w", zipfile.ZIP_DEFLATED) as zf:
+    with zipfile.ZipFile(buffer, "w", zipfile.ZIP_STORED) as zf:
         for path in sorted(folder.rglob("*")):
             if path.is_file() and path.name != ".skillhub" and "__pycache__" not in path.parts:
                 info = zipfile.ZipInfo(f"{folder.name}/{path.relative_to(folder).as_posix()}", FIXED_TIME)
-                info.compress_type = zipfile.ZIP_DEFLATED
+                info.compress_type = zipfile.ZIP_STORED   # no compression, so every machine builds identical bytes
                 info.external_attr = 0o644 << 16
                 zf.writestr(info, path.read_bytes())
     return buffer.getvalue()
