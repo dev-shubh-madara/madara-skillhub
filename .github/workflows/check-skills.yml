@@ -18,6 +18,8 @@ jobs:
         run: python3 scripts/validate_skills.py
       - name: Safety audit
         run: python3 scripts/audit_skill.py skills/*
+      - name: ZIPs in dist are up to date
+        run: python3 scripts/package.py --check
       - name: Installer dry run
         run: python3 scripts/install.py --all --dry-run --dest "$RUNNER_TEMP/skills"
       - name: JSON files parse
