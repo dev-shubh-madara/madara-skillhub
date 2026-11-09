@@ -1,6 +1,6 @@
 {
   "name": "madara-skillhub",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A hub of tested Claude skills for frontend, backend, coding teaching, study, business, health info, research writing, career and data work, with a one-message installer.",
   "author": {
     "name": "Shubh",

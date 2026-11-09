@@ -1,22 +1,37 @@
 # Madara SkillHub
 
-A set of Claude skills for the work I kept repeating: building sites and APIs, learning to code, studying for exams, planning a small business, careers, data and repo cleanup. Plus an installer skill, so you can put all of it into Claude with one message.
+A set of Claude skills for the work I kept repeating: building sites and APIs, learning to code, studying for exams, planning a small business, careers, data and repo cleanup. Every skill comes as a ready-to-upload ZIP, plus an installer for Claude Code.
 
 I built this because most skills I found on GitHub were either too generic or never tested. Each pack here has a defined workflow, a quality bar, a self-check it runs before answering, a reference file with templates and worked examples, and a list of prompts it should and should not react to.
 
 ## Install
 
-**In a Claude chat**
+There are three ways, depending on where you use Claude.
 
-Send the link to this repo and write:
+### 1. Claude app or claude.ai (works for everyone)
 
-> Install all skills from this repo.
+1. Download the ZIP for each skill you want (links below, or the `dist/` folder).
+2. In Claude, open **Settings > Capabilities** and turn on **Code execution and file creation** (called **Create and edit files** in newer layouts). Skills need it.
+3. Go to **Customize > Skills**, tap **+**, then **Create skill**, then **Upload a skill**.
+4. Pick the ZIP. Repeat for each skill.
 
-Claude reads `INSTALL.md`, checks each skill, and shows you a save card for each one. Tap save on the ones you want.
+Upload one ZIP at a time and don't unzip them first. Each ZIP already has the folder layout Claude expects.
 
-You can also ask for a few: "install only the frontend and study packs from this repo."
+- [skillhub.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/skillhub.zip)
+- [frontend-builder.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/frontend-builder.zip)
+- [backend-api-builder.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/backend-api-builder.zip)
+- [coding-teacher.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/coding-teacher.zip)
+- [study-coach.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/study-coach.zip)
+- [business-planner.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/business-planner.zip)
+- [health-info-guide.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/health-info-guide.zip)
+- [research-writer.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/research-writer.zip)
+- [career-builder.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/career-builder.zip)
+- [data-analyst.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/data-analyst.zip)
+- [repo-polish.zip](https://github.com/dev-shubh-madara/madara-skillhub/raw/main/dist/repo-polish.zip)
 
-**In Claude Code**
+Easiest on a laptop browser. On the phone app the Customize menu can differ, so use claude.ai in a browser if you can't find it.
+
+### 2. Claude Code on your computer
 
 ```
 git clone https://github.com/dev-shubh-madara/madara-skillhub
@@ -33,12 +48,16 @@ python3 scripts/install.py --all --dry-run         # show what would happen
 python3 scripts/install.py --all --dest ./.claude/skills   # this project only
 ```
 
-Or as a plugin:
+Or as a plugin. These are Claude Code terminal commands, so they won't work in the Claude app:
 
 ```
 /plugin marketplace add dev-shubh-madara/madara-skillhub
 /plugin install madara-skillhub
 ```
+
+### 3. Just send the link (only works in some chats)
+
+Some Claude chats can show a "save skill" card. In those, send the repo link with "install all skills from this repo" and tap save on each card. If Claude says it can't save skills there, use option 1.
 
 ## What is inside
 
@@ -89,15 +108,17 @@ python3 scripts/audit_skill.py skills/*
 - A skill is a set of instructions that Claude reads when a request matches. It does not retrain Claude, and results still depend on the task and on you checking the output.
 - I have not measured a fixed speedup, so I do not claim one.
 - The health pack gives general information only. It does not diagnose and it is not a substitute for a doctor.
-- In the normal Claude chat you still tap save on each skill. Claude cannot install them silently.
+- Claude can't install skills by itself. You upload the ZIPs, or run the script in Claude Code.
+- Skills don't sync between the Claude app and Claude Code. Install them in each place you use.
 
 ## Add a skill
 
 1. Make `skills/your-skill/SKILL.md` with `name` (same as the folder) and `description` in the frontmatter.
 2. Put the workflow, quality bar and a self-check in the body. Quote the description if it contains a colon.
 3. Put long templates in `references/` and link them from the body.
-4. Add should and should-not prompts to `evals/triggers.json`.
-5. Run the two scripts above.
+4. Run `python3 scripts/package.py` to rebuild the ZIPs in `dist/`.
+5. Add should and should-not prompts to `evals/triggers.json`.
+6. Run the two scripts above.
 
 ## License
 
